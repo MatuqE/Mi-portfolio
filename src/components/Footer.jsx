@@ -8,7 +8,7 @@ const Footer = () => {
             <p>Matias Bordenave</p>
           </div>
           <div className='footer_copyR'>
-                © Copyright 2023. Made by Matias Bordenave
+                © Copyright 2023. Made by Matias Bordenave.
           </div>
             <div className='footer_media'>
               <h3>social</h3>
