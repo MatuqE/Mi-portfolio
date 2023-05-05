@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body{
+  background-color:rgb(252, 255, 214)
+}
 
 /* Header */
 .header{
@@ -9,18 +12,64 @@
   display: flex;
   justify-content: space-between;
   padding: 0.7em;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+.img_nav{
+  width:35px;
+  height:35px;
+  border-radius:150px;
+  border:1px solid #666;
 }
 .header_div_name{
   display: flex;
 }
 .nav>ul{
   display: flex;
-
+  padding-right: 10px;
 }
 .nav>ul>li{
   display: flex;
-  margin-left: 10px;
-  
+  padding: 0 10px;  
+}
+/* button */
+:root {
+  --color-green: #141414;
+  --color-red: #ededed;
+  --color-button: #fdffff;
+  --color-black: #000;
+}
+.switch-button {
+  display: inline-block;
+}
+.switch-button .switch-button__checkbox {
+  display: none;
+}
+.switch-button .switch-button__label {
+  background-color: var(--color-red);
+  width: 4rem;
+  height: 2rem;
+  border-radius: 3rem;
+  display: inline-block;
+  position: relative;
+}
+.switch-button .switch-button__label:before {
+  transition: .2s;
+  display: block;
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--color-button);
+  content: '';
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 0px 1px var(--color-black);
+}
+.switch-button .switch-button__checkbox:checked + .switch-button__label {
+  background-color: var(--color-green);
+}
+.switch-button .switch-button__checkbox:checked + .switch-button__label:before {
+  transform: translateX(2rem);
 }
 
 /* Main */
@@ -37,6 +86,38 @@
 .div_main>p{
   padding: 3em;
 }
+
+/* Contact */
+
+.contact_form{
+  box-sizing: border-box;
+  margin: 50 px auto;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+.main_contact1>h2{
+  margin: 1em;  
+}
+.main_contact1{
+  margin: auto;
+  background-color: rgb(252, 255, 214);
+  text-align: center;
+  border-top: #000 solid 1px;
+  width: 90%;
+  padding: 1em;
+  
+}
+input{
+  width: 40%;
+}
+
+textarea {
+  width: 40%;
+  resize: none;
+}
+
 
 /* Footer */
 .footer{
@@ -57,4 +138,53 @@
 
 .footer_copyR{
   margin-top: 4.3em;
+}
+
+/* Modo Nocturno */ 
+
+/* Header*/
+
+.header2{
+  background-color: rgb(53, 53, 53);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7em;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  color: white;
+}
+.header2>nav>ul>li>a{
+  color: #141414;
+}
+
+/* Main */
+
+.body2{
+  background-color: rgb(75, 75, 75);
+}
+.div_main2{
+  text-align: center;
+  background-color: rgb(75, 75, 75);
+  padding: 3em;
+}
+/* .div_mai2>h1_main{
+  padding-top: 2.5em;
+  font-size: 50px;
+} */
+.div_main2>p{
+  padding: 3em;
+}
+
+.main_contact2>h2{
+  margin: 1em;  
+}
+.main_contact2{
+  margin: auto;
+  background-color: rgb(75, 75, 75);
+  text-align: center;
+  border-top: #000 solid 1px;
+  width: 90%;
+  padding: 1em;
+  
 }
