@@ -4,6 +4,8 @@ import React from 'react'
 export const Contact = ( { modo } ) => {
   return (
     <>
+
+      
         <div className={ modo ? 'main_contact1' : 'main_contact2'}>
               <h2> Contact</h2>
             <div className='contact_form'>
