@@ -10,7 +10,7 @@ export const Main = ( {modo} ) => {
                 Hola! Soy Matias Bordenave.
             </h1>
             <p>
-                Soy estudiante de programacion de la facultad regional de Tucumán, <br/> full stack web developer.
+                Soy estudiante de programacion de la facultad regional de Tucumán.
             </p>
         </div>
       </div>

@@ -1,11 +1,11 @@
 import React from 'react'
-import { Footer, Header, Contact } from '../components'
+import { Footer, Header, MainContact } from '../constants'
 
-const Contacto = ( { handleOnClick, modo }) => {
+export const Contacto = ( { handleOnClick, modo }) => {
   return (
     <>
         <Header handleOnClick={ (value) => handleOnClick(value) } modo={modo}/>
-        <Contact modo={modo}/>
+        <MainContact modo={modo}/>
         <Footer modo={modo}/>
     </>
   )

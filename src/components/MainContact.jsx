@@ -1,33 +1,26 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 
-export default function () {
-    const [nombre, setNombre] = useState("")
-    const [email, setEmail] = useState("")
-    const [descripcion, setDescripcion] = useState("")
-
-    const handlerChange= (e) =>{
-        setNombre = 
-    }
-     
+export const MainContact = ( { modo } ) => {
   return (
     <>
-        <Form>
-            <Form.Group>
-                <Form.Label>Nombre</Form.Label>
-                <Form.Control type="text" onChange={handlerChange= (e) => setNombre(e.tager.value)}/>
-                <br />
 
-                <Form.Label>Email</Form.Label>
-                <Form.Control type="text" onChange={handlerChange= (e) => setEmail(e.tager.value)}/>
-                <br />
-
-                <Form.Label>Descripcion</Form.Label>
-                <Form.Control type="text" onChange={handlerChange= (e) => setDescripcion(e.tager.value)}/>
-                <br />
-
-            </Form.Group>
-        </Form>
+      
+        <div className={ modo ? 'main_contact1' : 'main_contact2'}>
+              <h2> Contactame </h2>
+            <div className='contact_form'>
+                <form action="form_contact" method='post'>
+                    <label htmlFor="name" className='contact_form_lblName'>Nombre</label> <br />
+                    <input type="text" /> <br /> <br />
+                    <label htmlFor="mail">Mail</label>  <br />
+                    <input type="text" />  <br /> <br />
+                    <label htmlFor="">Mensaje</label> <br />
+                    <textarea required name="" id="" cols="30" rows="10"></textarea>
+                </form>
+            </div>
+        </div>
     </>
   )
 }
+
+export default MainContact

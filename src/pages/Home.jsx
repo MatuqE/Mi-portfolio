@@ -1,8 +1,8 @@
-import  { Header, Main, Footer , Contact }  from '../components'
+import  { Header, Main, Footer, Skills }  from '../constants'
 import '../style.css'
 
 
-const Home = ({ modo, handleOnClick }) => {
+export const Home = ({ modo, handleOnClick }) => {
   
   
 
@@ -11,7 +11,7 @@ const Home = ({ modo, handleOnClick }) => {
 
         <Header  handleOnClick={ (value) => handleOnClick(value) } modo={modo}/>
         <Main modo={modo}/>
-        <Contact modo={modo}/>
+        <Skills modo={modo}/>
         <Footer/>
 
     </>

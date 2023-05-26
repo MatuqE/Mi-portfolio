@@ -87,6 +87,26 @@ body{
   padding: 3em;
 }
 
+/*   Skill Component   */
+
+.mainSkill1{
+  padding: 2em;
+  background-color: rgb(252, 252, 228);
+}
+
+.div_skills{
+  display: flex;
+}
+
+.skills_div{
+  color: #ffff;
+  background-color: #545454;
+  margin: 0.5em;
+  padding: 0.5em;
+  border-radius: 6px;
+  
+}
+
 /* Contact */
 .main_contact1{
   background-color: rgb(252, 255, 214);
@@ -118,7 +138,6 @@ textarea {
   resize: none;
 }
 
-
 /* Footer */
 .footer{
   background: #000;
@@ -127,7 +146,6 @@ textarea {
   display: flex;
   justify-content: space-between;
 }
-
 
 .footer_media>h3{
   text-align: center;
@@ -142,7 +160,6 @@ textarea {
 }
 
 /* Modo Nocturno */ 
-
 /* Header*/
 
 .header2{
@@ -159,6 +176,7 @@ textarea {
 }
 
 /* Main */
+
 
 .div_main2{
   text-align: center;
@@ -184,4 +202,37 @@ textarea {
   border-top: #000 solid 1px;
   padding: 1em; 
   padding-top: 8em; 
+}
+
+/* Error Page */
+
+.divError{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgError{
+  margin: 20px;
+  width: 60%;
+}
+
+/*   Skill Component   */
+
+.mainSkill2{
+  padding: 2em;
+  background-color: rgb(122, 122, 122);
+}
+
+.div_skills{
+  display: flex;
+}
+
+.skills_div{
+  color: #ffff;
+  background-color: #545454;
+  margin: 0.5em;
+  padding: 0.5em;
+  border-radius: 6px;
+  
 }
