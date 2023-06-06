@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import ReactDOM from 'react-dom/client'
 import { Link } from 'react-router-dom'
 
 
@@ -21,7 +20,7 @@ export const Header = ({ handleOnClick, modo }) => {
           <nav className='nav col-2'>
               <ul>
                   <li><Link to="/">Home</Link></li>
-                  <li></li>
+                  <li><Link to="/About">About</Link></li>
                   <li><Link to="/Contacto">Contacto</Link></li>
               </ul>
           </nav>

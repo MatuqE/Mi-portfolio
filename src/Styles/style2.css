@@ -1,0 +1,70 @@
+/*     About Component    */
+
+.divMainAbout1{
+    padding: 5em;
+    background-color: rgb(252, 252, 228);
+}
+.imgAbout{
+  width: 50%;
+  border-radius: 15px;
+}
+
+/*   Skill Component   */
+
+.mainSkill1{
+    padding: 10em 2em;
+    background-color: rgb(252, 252, 228);
+  }
+  
+  .div_skills{
+    display: flex;
+  }
+  
+  .skills_div{
+    color: #ffff;
+    background-color: #545454;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 6px;
+    
+  }
+
+  /*******   Modo Nocturno   *******/
+
+  /*     About Component    */
+
+  .divMainAbout2{
+    padding: 5em;
+    background-color: rgb(122, 122, 122);
+  }
+
+  /*   Skill Component   */
+
+.mainSkill2{
+    padding: 10em 2em;
+    background-color: rgb(122, 122, 122);
+  }
+  
+  .div_skills{
+    display: flex;
+  }
+  
+  .skills_div{
+    color: #ffff;
+    background-color: #545454;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 6px;
+  }
+
+  .botonSet{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .botonSet:hover{
+  background-color: #545454;
+  
+ }
